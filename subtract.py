@@ -9,4 +9,4 @@ class Subtract(Operation):
             print(int(chars[0]) - int(chars[2]))
             return int(chars[0]) - int(chars[2])
         elif self._successor is not None:
-            self._successor.handle_request(text)
+            return self._successor.handle_request(text)

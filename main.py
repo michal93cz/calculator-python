@@ -8,4 +8,4 @@ operation2 = Subtract(operation1)
 operation3 = Divide(operation2)
 operation4 = Multiple(operation3)
 
-operation4.handle_request("2 - 3")
+print(operation4.handle_request("2 + 3"))
