@@ -10,3 +10,6 @@ class Subtract(Operation):
             return int(chars[0]) - int(chars[2])
         elif self._successor is not None:
             return self._successor.handle_request(text)
+        else:
+            print("Not supported operation")
+            return None
